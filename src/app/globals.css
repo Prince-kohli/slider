@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.images {
+  margin: auto;
+  width: 60%;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+/* .images Image {
+  border-top: #fa5560 -23.47%;
+  border-right: #4d91ff;
+  border-left: #b14bf4;
+} */
+
+.text {
+  text-align: center;
+  font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+  font-size: small;
+  display: inline;
+  color: beige;
+  width: 100%;
+}
+
+* {
+  background-color: black;
+}
+
+.swiper-slide h4 {
+  font-size: 30px;
+  height: auto;
+}
+
+.swiper-slide {
+  /* min-height: 300px !important; */
+  /* background: #ff0 !important; */
+  /* display: flex !important; */
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  background: #f30 !important;
+}
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  background: #f30;
+} */
+
+.swiper-slide.swiper-slide-active h4 {
+  background: linear-gradient(
+    81.02deg,
+    #fa5560 -23.47%,
+    #b14bf4 45.52%,
+    #4d91ff 114.8%
+  ) !important;
+  -webkit-background-clip: text !important; /* Clip background to text */
+  background-clip: text !important; /* Clip background to text */
+  color: transparent !important;
+
+  background-size: 100% !important;
+  background-repeat: repeat !important;
+  transition: all 0.5s ease-in-out !important;
+}
+
+.custom-swiper {
+  width: 100%;
+  max-width: 900px; /* Adjust width as needed */
+}
+
+.heading {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  font-size: 50px;
+  font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+}
